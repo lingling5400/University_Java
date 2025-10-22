@@ -9,7 +9,7 @@ public class 樂透對獎 {
 		int[]a=new int[7];
 		int[]b=new int[6];
 		for(i=0;i<=6;i++)
-			a[i]=c.nextInt(49)+1;
+			a[i]=c.nextInt(49)+1;         //亂數範圍:1~49
 		
 		System.out.println("輸入6個數:");
 		for(i=0;i<=5;i++)
