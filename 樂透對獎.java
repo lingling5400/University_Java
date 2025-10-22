@@ -5,7 +5,7 @@ public class 樂透對獎 {
 		
 		int i,j,sum=0,sum2=0;
 		Scanner keyin=new Scanner(System.in);
-		Random c=new Random();
+		Random c=new Random();             //產生亂數
 		int[]a=new int[7];
 		int[]b=new int[6];
 		for(i=0;i<=6;i++)
